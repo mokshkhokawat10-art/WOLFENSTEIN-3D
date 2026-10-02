@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5aaeadcced5f46a10f559c2338c0a, type: 3}
+  m_Name: Brute
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.CreatureSounds
+  idle: {fileID: 0}
+  hunt: {fileID: 11400000, guid: a59af08d914612a41965a876ad32775f, type: 2}
+  alert: {fileID: 11400000, guid: c5d99820c76ff8948af47d3d32a63fee, type: 2}
+  pain: {fileID: 11400000, guid: 8a5ba9efb1705fb41a48bfe3bf213726, type: 2}
+  death: {fileID: 11400000, guid: bdb66c493bfbab3449772fa09f24de22, type: 2}
+  vocalInterval: {x: 4, y: 8}
+  meleeWindup: {fileID: 11400000, guid: 9d0158fa518d6f6488b3a3fda252f17c, type: 2}
+  meleeStrike: {fileID: 11400000, guid: 376a488f2fad82d418a0bf17d94fb136, type: 2}
+  slam: {fileID: 11400000, guid: 752dc2f2914174f41a72e2b7ab224a82, type: 2}
+  rangedWindup: {fileID: 0}
+  rangedLaunch: {fileID: 0}
+  projectileImpact: {fileID: 0}
+  charge: {fileID: 0}
+  footstep: {fileID: 11400000, guid: 66916d5931ab06147a2aec0fa84b2827, type: 2}
+  stepDistance: 2.4

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c294ac642dd0544b9ccf8e6965aab1d, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Progression.LevelDefinition
+  number: 2
+  displayName: THE POWER STATION
+  sceneName: Level2
+  layout: {fileID: 11400000, guid: 6782b28810427554ba27d297e6f7bc2e, type: 2}
+  startingHealth: 100
+  startingAmmo: 24
+  objectives:
+  - kind: 1
+    title: RESTORE THE POWER
+    key: {fileID: 0}
+    target: 90
+  - kind: 2
+    title: REACH THE ARENA
+    key: {fileID: 0}
+    target: 97
+  - kind: 3
+    title: SURVIVE THE ARENA
+    key: {fileID: 0}
+    target: 0
+  - kind: 4
+    title: REACH THE LIFT
+    key: {fileID: 0}
+    target: 0
+  doorLocks:
+  - marker: 80
+    doorName: POWER DOOR
+    key: {fileID: 0}
+    switchChannel: 90
+    lockedMessage: NO POWER - RESTORE THE POWER
+    openedMessage: POWER RESTORED
+  encounters:
+  - name: GENERATOR HALL
+    triggerZone: 105
+    triggerSwitch: 0
+    spawnMarker: 54
+    monsters:
+    - monster: {fileID: 11400000, guid: f90baa9bbf6d7ed4a9b6a95e3a03159f, type: 2}
+      count: 1
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 17cda9ce2c1028a409ea17d181bb04d6, type: 2}
+      count: 2
+      spawnLast: 0
+  - name: POWER SURGE
+    triggerZone: 0
+    triggerSwitch: 90
+    spawnMarker: 55
+    monsters:
+    - monster: {fileID: 11400000, guid: 97a4f8e035f629b43a84bc586d6fbe85, type: 2}
+      count: 2
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 0904dacbb8130c94188efd1612a78d67, type: 2}
+      count: 2
+      spawnLast: 0
+  waves: {fileID: 11400000, guid: 28c194e91dd49774fbf7baebb89a9101, type: 2}
+  exitZone: 120
+  exitDoorMarker: 69
+  nextLevel: {fileID: 0}

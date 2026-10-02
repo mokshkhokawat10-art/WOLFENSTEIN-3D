@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97361c71df645e44b9842a52519a3925, type: 3}
+  m_Name: Stalker
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Monsters.MonsterDefinition
+  displayName: STALKER
+  maxHealth: 16
+  painChance: 0.6
+  painDuration: 0.25
+  moveSpeed: 5.2
+  turnSpeed: 600
+  sightRange: 30
+  hasMelee: 1
+  meleeReach: 0.9
+  meleeDamage: 6
+  meleeWindup: 0.3
+  meleeCooldown: 0.8
+  meleeSplashRadius: 0
+  hasRanged: 0
+  projectile: {fileID: 0}
+  projectileSpeed: 12
+  projectileDamage: 10
+  projectilesPerVolley: 1
+  volleySpread: 5
+  minFireRange: 3
+  maxFireRange: 22
+  preferredDistance: 10
+  fireWindup: 0.5
+  fireCooldown: 2
+  canCharge: 0
+  chargeSpeedMultiplier: 2.2
+  chargeMinRange: 5
+  chargeMaxRange: 12
+  chargeDuration: 0.8
+  chargeCooldown: 5
+  spawnDuration: 0.8
+  killScore: 100
+  drop: {fileID: 9187406131148109324, guid: d7e4ab37acbbefb41a9a79563b9944d7, type: 3}
+  dropChance: 0.4
+  sounds: {fileID: 11400000, guid: a6520f20d68a4d541a555188b1ea59ee, type: 2}

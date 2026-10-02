@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95871739ea15fc64b8f6ff0215f73468, type: 3}
+  m_Name: Footstep
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.SoundCue
+  clips:
+  - {fileID: 8300000, guid: 0cccd6e25bb888d41ba58c28c647a0b8, type: 3}
+  - {fileID: 8300000, guid: fb117191000796b4f8df80faa81ebba5, type: 3}
+  - {fileID: 8300000, guid: 276a403cae69381468d77c94c36adcb2, type: 3}
+  category: 0
+  loop: 0
+  volume: 0.6
+  volumeVariation: 0.05
+  pitch: 1
+  pitchVariation: 0.06
+  spatialBlend: 1
+  minDistance: 3
+  maxDistance: 26
+  cooldown: 0
+  maxVoices: 2
+  priority: 120
+  ducksMusic: 0

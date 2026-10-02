@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97361c71df645e44b9842a52519a3925, type: 3}
+  m_Name: Revenant
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Monsters.MonsterDefinition
+  displayName: REVENANT
+  maxHealth: 260
+  painChance: 0.15
+  painDuration: 0.25
+  moveSpeed: 5.4
+  turnSpeed: 540
+  sightRange: 40
+  hasMelee: 1
+  meleeReach: 1.1
+  meleeDamage: 24
+  meleeWindup: 0.4
+  meleeCooldown: 1
+  meleeSplashRadius: 0
+  hasRanged: 1
+  projectile: {fileID: 1031420063085526726, guid: 3c2462a9e802a69409dcb92a09f48f6e, type: 3}
+  projectileSpeed: 16
+  projectileDamage: 12
+  projectilesPerVolley: 3
+  volleySpread: 7
+  minFireRange: 5
+  maxFireRange: 26
+  preferredDistance: 9
+  fireWindup: 0.6
+  fireCooldown: 3
+  canCharge: 1
+  chargeSpeedMultiplier: 2.2
+  chargeMinRange: 5
+  chargeMaxRange: 13
+  chargeDuration: 0.9
+  chargeCooldown: 5
+  spawnDuration: 1.4
+  killScore: 2000
+  drop: {fileID: 8592133587997929956, guid: 3209879a2d9487a429a0b28015c3bc26, type: 3}
+  dropChance: 1
+  sounds: {fileID: 11400000, guid: 945844a7a26e56a47be2498d034f218d, type: 2}

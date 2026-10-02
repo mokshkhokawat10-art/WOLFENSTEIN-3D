@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42261a8c3945bc4bbb84619b8e10395, type: 3}
+  m_Name: Guard
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Enemies.EnemyDefinition
+  sightRange: 40
+  fieldOfView: 180
+  closeAwarenessRange: 2
+  reactionTime: 0.5
+  chaseSpeed: 3
+  turnSpeed: 540
+  stoppingDistance: 2
+  attackRange: 25
+  aimTime: 0.4
+  minAttackInterval: 1
+  maxAttackInterval: 2
+  closeAccuracy: 0.85
+  longRangeAccuracy: 0.15
+  closeDamage: 15
+  longRangeDamage: 4
+  painDuration: 0.3
+  killScore: 100
+  drop: {fileID: 9187406131148109324, guid: d7e4ab37acbbefb41a9a79563b9944d7, type: 3}
+  sounds: {fileID: 11400000, guid: 34ca9dbb0b008a643a8224d214e7b0dd, type: 2}

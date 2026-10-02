@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5aaeadcced5f46a10f559c2338c0a, type: 3}
+  m_Name: Revenant
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.CreatureSounds
+  idle: {fileID: 0}
+  hunt: {fileID: 11400000, guid: b0e6cd4a5f0426e4e8783e248c732690, type: 2}
+  alert: {fileID: 11400000, guid: 26165f9480ba0dd44a2dd417fa0c20db, type: 2}
+  pain: {fileID: 11400000, guid: ef24ef0faf7d7ae4296f8eec8b90b8ec, type: 2}
+  death: {fileID: 11400000, guid: 193e991288306df40a70fa1bbcd52f83, type: 2}
+  vocalInterval: {x: 4, y: 7}
+  meleeWindup: {fileID: 11400000, guid: e3fa431c5c51b1a4f8f3eeafd316041a, type: 2}
+  meleeStrike: {fileID: 11400000, guid: 6be4f219dcf733240bddd8127f84e86c, type: 2}
+  slam: {fileID: 0}
+  rangedWindup: {fileID: 11400000, guid: e2700837e5de37f439d7f5857463412e, type: 2}
+  rangedLaunch: {fileID: 11400000, guid: 742d3cbaa6a311e48a16743c4dfd031f, type: 2}
+  projectileImpact: {fileID: 11400000, guid: 04e9e7f30e0456048a5d5141c80fb05a, type: 2}
+  charge: {fileID: 11400000, guid: b63d786338b5d5e41a2287cdc785dc5e, type: 2}
+  footstep: {fileID: 11400000, guid: 08204aafa9adae6449c54c2cd9b59115, type: 2}
+  stepDistance: 2

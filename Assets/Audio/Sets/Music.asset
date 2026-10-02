@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5dd99db0a9366b84d98ec1c2fcf6b12a, type: 3}
+  m_Name: Music
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.MusicSet
+  menu:
+    clip: {fileID: 8300000, guid: 32557d5da45d7f5469f8bb2f14dcd0fc, type: 3}
+    volume: 0.5
+    loop: 1
+  exploration:
+    clip: {fileID: 8300000, guid: 00f0f8412a513f141a403716f1110d1a, type: 3}
+    volume: 0.4
+    loop: 1
+  combat:
+    clip: {fileID: 8300000, guid: 51511d6cf5c41374b89126d048651c7b, type: 3}
+    volume: 0.45
+    loop: 1
+  intense:
+    clip: {fileID: 8300000, guid: 9e284bd0d82ee5d4b9384b3dccefcb1f, type: 3}
+    volume: 0.5
+    loop: 1
+  victory:
+    clip: {fileID: 8300000, guid: db8a58f6256244645b575e55321550fe, type: 3}
+    volume: 0.55
+    loop: 0
+  crossfade: 2.5

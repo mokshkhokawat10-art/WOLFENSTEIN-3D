@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95871739ea15fc64b8f6ff0215f73468, type: 3}
+  m_Name: Unlock
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.SoundCue
+  clips:
+  - {fileID: 8300000, guid: 4ee77cdad1ed72842b9a19b9c834077a, type: 3}
+  category: 0
+  loop: 0
+  volume: 0.85
+  volumeVariation: 0.05
+  pitch: 1
+  pitchVariation: 0.03
+  spatialBlend: 1
+  minDistance: 2.5
+  maxDistance: 45
+  cooldown: 0
+  maxVoices: 3
+  priority: 50
+  ducksMusic: 0

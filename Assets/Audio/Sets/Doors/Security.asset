@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581bb5832c043f0408986227fe4a0919, type: 3}
+  m_Name: Security
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.DoorSounds
+  open: {fileID: 11400000, guid: 225792d353147a648ac16327b525c1f4, type: 2}
+  opened: {fileID: 11400000, guid: 30f3153ad02595845bb2b6a8e88debce, type: 2}
+  close: {fileID: 11400000, guid: 3ce36a6b0d92c5f42ac0ea083984d807, type: 2}
+  closed: {fileID: 11400000, guid: 39f5b3627eb86f44aa68c734a93d5bd9, type: 2}
+  locked: {fileID: 11400000, guid: 5b897363986821f46bc8b4d1013688d8, type: 2}
+  lockEngaged: {fileID: 11400000, guid: 8ede3cc12c77b5041a34bb067ff24a12, type: 2}
+  unlocked: {fileID: 11400000, guid: e3e3c05ce0717c34298ab26d1aed8447, type: 2}
+  height: 1.5

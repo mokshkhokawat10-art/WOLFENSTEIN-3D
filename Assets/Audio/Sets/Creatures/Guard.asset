@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5aaeadcced5f46a10f559c2338c0a, type: 3}
+  m_Name: Guard
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.CreatureSounds
+  idle: {fileID: 0}
+  hunt: {fileID: 0}
+  alert: {fileID: 11400000, guid: d735eb823d58d1945b70055013cb13dd, type: 2}
+  pain: {fileID: 11400000, guid: 338342ef22e6cbd4fb05c4d50ee741cf, type: 2}
+  death: {fileID: 11400000, guid: 864fee9262f861349a036fd1859f9257, type: 2}
+  vocalInterval: {x: 3, y: 7}
+  meleeWindup: {fileID: 0}
+  meleeStrike: {fileID: 0}
+  slam: {fileID: 0}
+  rangedWindup: {fileID: 0}
+  rangedLaunch: {fileID: 11400000, guid: a3a9209257662014ba205096642c7d7a, type: 2}
+  projectileImpact: {fileID: 0}
+  charge: {fileID: 0}
+  footstep: {fileID: 11400000, guid: d5caffa69e1a5b0499a09631f24d2263, type: 2}
+  stepDistance: 1.5

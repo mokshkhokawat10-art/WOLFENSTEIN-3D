@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95871739ea15fc64b8f6ff0215f73468, type: 3}
+  m_Name: Hunt
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.SoundCue
+  clips:
+  - {fileID: 8300000, guid: 34e2c30c18e995e49914189a4d186540, type: 3}
+  - {fileID: 8300000, guid: 773f9f6c863400e4491b5eb60188b149, type: 3}
+  - {fileID: 8300000, guid: 75de8a1ea5e31c84bb2afd83acfb2229, type: 3}
+  category: 0
+  loop: 0
+  volume: 0.8
+  volumeVariation: 0.05
+  pitch: 1
+  pitchVariation: 0.05
+  spatialBlend: 1
+  minDistance: 4
+  maxDistance: 38
+  cooldown: 0
+  maxVoices: 2
+  priority: 100
+  ducksMusic: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95871739ea15fc64b8f6ff0215f73468, type: 3}
+  m_Name: Stone
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.SoundCue
+  clips:
+  - {fileID: 8300000, guid: 871eeef199c34e14291ccdca07444943, type: 3}
+  - {fileID: 8300000, guid: db2fb36ddeff2354eaa5169628dd175c, type: 3}
+  - {fileID: 8300000, guid: 61cfe53e32e67c54a910ad0027026f96, type: 3}
+  - {fileID: 8300000, guid: b1d36aada1de0124e93eb06051833564, type: 3}
+  category: 0
+  loop: 0
+  volume: 0.32
+  volumeVariation: 0.05
+  pitch: 1
+  pitchVariation: 0.06
+  spatialBlend: 0
+  minDistance: 1
+  maxDistance: 10
+  cooldown: 0
+  maxVoices: 2
+  priority: 60
+  ducksMusic: 0

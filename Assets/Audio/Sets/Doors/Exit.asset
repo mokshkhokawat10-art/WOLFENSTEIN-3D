@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581bb5832c043f0408986227fe4a0919, type: 3}
+  m_Name: Exit
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.DoorSounds
+  open: {fileID: 11400000, guid: 45be9a0e1102a634392cd541f3d94cbb, type: 2}
+  opened: {fileID: 11400000, guid: b4dc07b65679e924294fe099f266ff8a, type: 2}
+  close: {fileID: 11400000, guid: 8717a37b9dc083644ae370911ceca83a, type: 2}
+  closed: {fileID: 11400000, guid: eef7e414c8b755f4681edfe898080d54, type: 2}
+  locked: {fileID: 11400000, guid: 45f60b74b31c3244e91e87e568e6e5dd, type: 2}
+  lockEngaged: {fileID: 11400000, guid: c07f9449680bd6d4da665a304fca51e5, type: 2}
+  unlocked: {fileID: 11400000, guid: db6c6b138d2cf214f80444bb5a664ea5, type: 2}
+  height: 1.5

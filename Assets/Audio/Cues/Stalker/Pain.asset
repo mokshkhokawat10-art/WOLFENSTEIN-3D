@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95871739ea15fc64b8f6ff0215f73468, type: 3}
+  m_Name: Pain
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.SoundCue
+  clips:
+  - {fileID: 8300000, guid: e4390707ad88b7e4ca40588d6165126a, type: 3}
+  - {fileID: 8300000, guid: 3e192a1911afd2d4c91333b0ad65c2f1, type: 3}
+  category: 0
+  loop: 0
+  volume: 0.55
+  volumeVariation: 0.05
+  pitch: 1
+  pitchVariation: 0.05
+  spatialBlend: 1
+  minDistance: 2
+  maxDistance: 22
+  cooldown: 0.08
+  maxVoices: 3
+  priority: 110
+  ducksMusic: 0

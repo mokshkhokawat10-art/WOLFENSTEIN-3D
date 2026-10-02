@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5aaeadcced5f46a10f559c2338c0a, type: 3}
+  m_Name: Stalker
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.CreatureSounds
+  idle: {fileID: 0}
+  hunt: {fileID: 11400000, guid: c4bce46199e308e4d87eb40a7f8afe84, type: 2}
+  alert: {fileID: 11400000, guid: 601b8caabb1e1214db600b1c50ef5dec, type: 2}
+  pain: {fileID: 11400000, guid: f866e548dc35f9b46b27fd0720066033, type: 2}
+  death: {fileID: 11400000, guid: 739f1f51868745c45848b83e582791b0, type: 2}
+  vocalInterval: {x: 2.5, y: 5}
+  meleeWindup: {fileID: 11400000, guid: 53ac2cd66a1070449ba28842c0f87505, type: 2}
+  meleeStrike: {fileID: 11400000, guid: 6c99a3d1663c90d48aab5d1f04e7620f, type: 2}
+  slam: {fileID: 0}
+  rangedWindup: {fileID: 0}
+  rangedLaunch: {fileID: 0}
+  projectileImpact: {fileID: 0}
+  charge: {fileID: 0}
+  footstep: {fileID: 11400000, guid: a16b580b9dbc6a2448f6a7d84a93af83, type: 2}
+  stepDistance: 1.3

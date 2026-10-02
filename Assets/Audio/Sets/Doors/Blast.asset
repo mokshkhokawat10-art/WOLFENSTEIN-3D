@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 581bb5832c043f0408986227fe4a0919, type: 3}
+  m_Name: Blast
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.DoorSounds
+  open: {fileID: 11400000, guid: 4b2a6e76fcf4fc84b94c149f5cf647af, type: 2}
+  opened: {fileID: 11400000, guid: cb25708ffb2c36845b7c4e2bb29e54ca, type: 2}
+  close: {fileID: 11400000, guid: e111c32ddb9aa8f478177007cab7c2a4, type: 2}
+  closed: {fileID: 11400000, guid: e577f0b303d68724c81838c14d7855b6, type: 2}
+  locked: {fileID: 11400000, guid: 97e56a2ee214ee94197da72c6b7a2d04, type: 2}
+  lockEngaged: {fileID: 11400000, guid: 6ac5f50fd0876a7468fc7dd445aa9012, type: 2}
+  unlocked: {fileID: 11400000, guid: e2130ac03774e7849aeed95e55b8e1de, type: 2}
+  height: 1.5

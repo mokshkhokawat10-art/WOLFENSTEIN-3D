@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d897f4261fea047884606b416ce764, type: 3}
+  m_Name: Level2Waves
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Waves.WaveSet
+  waves:
+  - groups:
+    - monster: {fileID: 11400000, guid: 0904dacbb8130c94188efd1612a78d67, type: 2}
+      count: 8
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 17cda9ce2c1028a409ea17d181bb04d6, type: 2}
+      count: 2
+      spawnLast: 0
+    difficulty:
+      health: 1.1
+      speed: 1.03
+      damage: 1.1
+    spawnInterval: 0.6
+    maxAlive: 10
+    supplies:
+    - {fileID: 3197426627284900849, guid: 85cdee06842868f429e155646b1c8568, type: 3}
+    - {fileID: 3197426627284900849, guid: 85cdee06842868f429e155646b1c8568, type: 3}
+    - {fileID: 7659650524464462646, guid: 573f2d86d35bc4949a24672055a8d5ea, type: 3}
+  - groups:
+    - monster: {fileID: 11400000, guid: 0904dacbb8130c94188efd1612a78d67, type: 2}
+      count: 8
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 17cda9ce2c1028a409ea17d181bb04d6, type: 2}
+      count: 3
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: f90baa9bbf6d7ed4a9b6a95e3a03159f, type: 2}
+      count: 2
+      spawnLast: 0
+    difficulty:
+      health: 1.15
+      speed: 1.05
+      damage: 1.15
+    spawnInterval: 0.55
+    maxAlive: 12
+    supplies:
+    - {fileID: 3197426627284900849, guid: 85cdee06842868f429e155646b1c8568, type: 3}
+    - {fileID: 3197426627284900849, guid: 85cdee06842868f429e155646b1c8568, type: 3}
+    - {fileID: 8592133587997929956, guid: 3209879a2d9487a429a0b28015c3bc26, type: 3}
+  - groups:
+    - monster: {fileID: 11400000, guid: 0904dacbb8130c94188efd1612a78d67, type: 2}
+      count: 10
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 17cda9ce2c1028a409ea17d181bb04d6, type: 2}
+      count: 3
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: f90baa9bbf6d7ed4a9b6a95e3a03159f, type: 2}
+      count: 2
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 97a4f8e035f629b43a84bc586d6fbe85, type: 2}
+      count: 2
+      spawnLast: 0
+    difficulty:
+      health: 1.2
+      speed: 1.07
+      damage: 1.2
+    spawnInterval: 0.5
+    maxAlive: 14
+    supplies:
+    - {fileID: 3197426627284900849, guid: 85cdee06842868f429e155646b1c8568, type: 3}
+    - {fileID: 3197426627284900849, guid: 85cdee06842868f429e155646b1c8568, type: 3}
+    - {fileID: 3197426627284900849, guid: 85cdee06842868f429e155646b1c8568, type: 3}
+    - {fileID: 8592133587997929956, guid: 3209879a2d9487a429a0b28015c3bc26, type: 3}
+  - groups:
+    - monster: {fileID: 11400000, guid: 0904dacbb8130c94188efd1612a78d67, type: 2}
+      count: 10
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 17cda9ce2c1028a409ea17d181bb04d6, type: 2}
+      count: 3
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: f90baa9bbf6d7ed4a9b6a95e3a03159f, type: 2}
+      count: 3
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 97a4f8e035f629b43a84bc586d6fbe85, type: 2}
+      count: 2
+      spawnLast: 0
+    - monster: {fileID: 11400000, guid: 2254928012218014aa77c8f5829fe140, type: 2}
+      count: 2
+      spawnLast: 1
+    difficulty:
+      health: 1.25
+      speed: 1.1
+      damage: 1.25
+    spawnInterval: 0.45
+    maxAlive: 16
+    supplies: []
+  announcementDuration: 2.5
+  intermission: 6

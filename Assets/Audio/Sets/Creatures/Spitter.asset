@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d5aaeadcced5f46a10f559c2338c0a, type: 3}
+  m_Name: Spitter
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.Audio.CreatureSounds
+  idle: {fileID: 11400000, guid: 2dfd3a2e34b28dd4a8fbdcdc634f38ea, type: 2}
+  hunt: {fileID: 11400000, guid: d73495c2534117d49ae9a669a6311afe, type: 2}
+  alert: {fileID: 11400000, guid: c02206bf034247e47891c89f853753ce, type: 2}
+  pain: {fileID: 11400000, guid: 4552901e4740d364e948f30cab409b87, type: 2}
+  death: {fileID: 11400000, guid: 1b6708ae29482284c931b79ed9b0cb7d, type: 2}
+  vocalInterval: {x: 3, y: 6}
+  meleeWindup: {fileID: 0}
+  meleeStrike: {fileID: 0}
+  slam: {fileID: 0}
+  rangedWindup: {fileID: 11400000, guid: c2461bd346382dc4b8066d380059f767, type: 2}
+  rangedLaunch: {fileID: 11400000, guid: 1a9f6e5fac98e294d995866c5a2bf363, type: 2}
+  projectileImpact: {fileID: 11400000, guid: fb5019669e66f63468a18b35193ba83e, type: 2}
+  charge: {fileID: 0}
+  footstep: {fileID: 0}
+  stepDistance: 1.6

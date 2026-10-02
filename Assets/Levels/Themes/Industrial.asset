@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4b6a3e5fc662145ad81b2b13b213ba, type: 3}
+  m_Name: Industrial
+  m_EditorClassIdentifier: Wolfenstein.Runtime::Wolfenstein.World.ZoneTheme
+  wallMaterial: {fileID: 2100000, guid: ffaabe76af8b309438783e487d2a0b53, type: 2}
+  floorMaterial: {fileID: 2100000, guid: 4cbaccd69e97b2b48b4383b6c23fda8e, type: 2}
+  ceilingMaterial: {fileID: 0}
+  doorPrefab: {fileID: 0}
+  lampPrefab: {fileID: 5950445995668530605, guid: 7d2eae9c7d5500d4a8cdb9692872440c, type: 3}
+  tilesPerLamp: 6
+  maxStepsToLamp: 3
+  skirtingMaterial: {fileID: 2100000, guid: 1a7a3829df5a1234bbced33d7344614c, type: 2}
+  skirtingHeight: 0.22
+  skirtingDepth: 0.05
+  corniceMaterial: {fileID: 0}
+  corniceHeight: 0.22
+  corniceDepth: 0.1
+  pilasterMaterial: {fileID: 0}
+  pilasterWidth: 0.45
+  pilasterDepth: 0.16
+  pilasterSpacing: 2
+  pipeMaterial: {fileID: 2100000, guid: 39e402b95bda4574b9c1523090d68bbb, type: 2}
+  pipeCount: 2
+  pipeRadius: 0.075
+  pipeHeight: 2.55
+  beamMaterial: {fileID: 2100000, guid: 83cd70253cfb4d44da4146861e1dfef2, type: 2}
+  beamWidth: 0.24
+  beamDepth: 0.3
+  beamSpacing: 2
+  beamsRunNorthSouth: 1
+  wallFixturePrefab: {fileID: 8226259335673220381, guid: ceef8aa28fa1cce47b84c20e2c162d9e, type: 3}
+  wallFixtureSpacing: 5
+  wallFixtureHeight: 2
+  floorSurface: 2
+  wallSurface: 2
+  ambience: {fileID: 11400000, guid: bfabe75d2d418614bad198b8ac1e6255, type: 2}
+  ambienceVolume: 1
+  distantSounds:
+  - {fileID: 11400000, guid: 31fc0a3e2077f9749ba0eb9d7868d749, type: 2}
+  - {fileID: 11400000, guid: 0a65e89ada186e14eacaae17ed574ff8, type: 2}
+  - {fileID: 11400000, guid: 829acf6c31eb1f74ca7ca84188a66184, type: 2}
